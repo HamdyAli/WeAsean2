@@ -14,6 +14,7 @@
 		88CC393520F48AAF00A67C55 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 88CC393320F48AAF00A67C55 /* LaunchScreen.storyboard */; };
 		88CC394020F48AAF00A67C55 /* WeAsean2Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88CC393F20F48AAF00A67C55 /* WeAsean2Tests.swift */; };
 		88CC394B20F48AAF00A67C55 /* WeAsean2UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88CC394A20F48AAF00A67C55 /* WeAsean2UITests.swift */; };
+		88CC395B20F4929900A67C55 /* SecondPageControllerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88CC395A20F4929900A67C55 /* SecondPageControllerViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		88CC394620F48AAF00A67C55 /* WeAsean2UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WeAsean2UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		88CC394A20F48AAF00A67C55 /* WeAsean2UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeAsean2UITests.swift; sourceTree = "<group>"; };
 		88CC394C20F48AAF00A67C55 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		88CC395A20F4929900A67C55 /* SecondPageControllerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondPageControllerViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,6 +100,7 @@
 			isa = PBXGroup;
 			children = (
 				88CC392A20F48AAD00A67C55 /* AppDelegate.swift */,
+				88CC395A20F4929900A67C55 /* SecondPageControllerViewController.swift */,
 				88CC392C20F48AAD00A67C55 /* ViewController.swift */,
 				88CC392E20F48AAD00A67C55 /* Main.storyboard */,
 				88CC393120F48AAF00A67C55 /* Assets.xcassets */,
@@ -256,6 +259,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				88CC395B20F4929900A67C55 /* SecondPageControllerViewController.swift in Sources */,
 				88CC392D20F48AAD00A67C55 /* ViewController.swift in Sources */,
 				88CC392B20F48AAD00A67C55 /* AppDelegate.swift in Sources */,
 			);
