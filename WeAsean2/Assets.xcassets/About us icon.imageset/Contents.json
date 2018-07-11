@@ -2,11 +2,11 @@
   "images" : [
     {
       "idiom" : "universal",
+      "filename" : "About us icon.png",
       "scale" : "1x"
     },
     {
       "idiom" : "universal",
-      "filename" : "Sphiere_Globe copy 2.png",
       "scale" : "2x"
     },
     {
