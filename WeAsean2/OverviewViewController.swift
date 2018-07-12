@@ -11,8 +11,20 @@ import WebKit
 
 class OverviewViewController: UIViewController {
 
+    @IBOutlet weak var overviewWeb: WKWebView!
+    
+    @IBOutlet weak var activityIndicator: UIActivityIndicatorView!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        
+            let url = URL(string: "http://www.asean.org/asean/about-asean/overview/")
+            let request = URLRequest(url: url!)
+        
+        overviewWeb.load(request)
+        
+        
 
         // Do any additional setup after loading the view.
     }

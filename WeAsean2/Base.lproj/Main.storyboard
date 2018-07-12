@@ -374,10 +374,34 @@
                     <view key="view" contentMode="scaleToFill" id="vgS-bc-1G8">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <wkWebView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="5fc-Ul-YOI">
+                                <rect key="frame" x="0.0" y="64" width="414" height="623"/>
+                                <color key="backgroundColor" red="0.36078431370000003" green="0.38823529410000002" blue="0.4039215686" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <wkWebViewConfiguration key="configuration">
+                                    <audiovisualMediaTypes key="mediaTypesRequiringUserActionForPlayback" none="YES"/>
+                                    <wkPreferences key="preferences"/>
+                                </wkWebViewConfiguration>
+                            </wkWebView>
+                            <activityIndicatorView opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" fixedFrame="YES" style="white" translatesAutoresizingMaskIntoConstraints="NO" id="FCE-P5-1nB">
+                                <rect key="frame" x="197" y="116" width="20" height="20"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </activityIndicatorView>
+                        </subviews>
                         <color key="backgroundColor" red="0.31764705879999999" green="0.43137254899999999" blue="0.7725490196" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="5fc-Ul-YOI" firstAttribute="top" secondItem="0ra-dW-Dct" secondAttribute="top" id="evY-XZ-4Vf"/>
+                            <constraint firstItem="0ra-dW-Dct" firstAttribute="bottom" secondItem="5fc-Ul-YOI" secondAttribute="bottom" id="oX6-3G-4K4"/>
+                            <constraint firstItem="5fc-Ul-YOI" firstAttribute="leading" secondItem="0ra-dW-Dct" secondAttribute="leading" id="qdf-AN-pCN"/>
+                            <constraint firstItem="0ra-dW-Dct" firstAttribute="trailing" secondItem="5fc-Ul-YOI" secondAttribute="trailing" id="sis-rn-fGx"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="0ra-dW-Dct"/>
                     </view>
                     <tabBarItem key="tabBarItem" title="Overview" id="56d-w5-bjA"/>
+                    <connections>
+                        <outlet property="activityIndicator" destination="FCE-P5-1nB" id="sW4-zu-ZCU"/>
+                        <outlet property="overviewWeb" destination="5fc-Ul-YOI" id="mrB-CN-Chd"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="uBp-5I-Fyn" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -469,10 +493,10 @@
                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     </tabBar>
                     <connections>
+                        <segue destination="RO2-93-yzd" kind="relationship" relationship="viewControllers" id="v03-rj-wUS"/>
                         <segue destination="tbO-e1-Gdv" kind="relationship" relationship="viewControllers" id="xvB-lS-X4L"/>
                         <segue destination="ZRi-uN-uvl" kind="relationship" relationship="viewControllers" id="Uou-lM-Zzd"/>
                         <segue destination="l1s-Ma-S4y" kind="relationship" relationship="viewControllers" id="cXz-wB-sBQ"/>
-                        <segue destination="RO2-93-yzd" kind="relationship" relationship="viewControllers" id="v03-rj-wUS"/>
                     </connections>
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="E64-p1-kiD" userLabel="First Responder" sceneMemberID="firstResponder"/>
