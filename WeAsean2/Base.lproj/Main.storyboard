@@ -200,19 +200,6 @@
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="QqU-Su-YR3">
                                         <rect key="frame" x="0.0" y="0.0" width="1000" height="1000"/>
                                         <subviews>
-                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="d4h-2v-5BQ">
-                                                <rect key="frame" x="152" y="-12" width="100" height="100"/>
-                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                <state key="normal" image="ASEAN secretariat icon">
-                                                    <attributedString key="attributedTitle"/>
-                                                </state>
-                                            </button>
-                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8os-gU-9E1">
-                                                <rect key="frame" x="291" y="-12" width="100" height="100"/>
-                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                <fontDescription key="fontDescription" type="system" pointSize="10"/>
-                                                <state key="normal" image="Gallery icon"/>
-                                            </button>
                                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="DwT-0k-GI0">
                                                 <rect key="frame" x="298" y="337" width="100" height="100"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -231,22 +218,6 @@
                                                 <fontDescription key="fontDescription" type="system" pointSize="12"/>
                                                 <state key="normal" image="Communities icon"/>
                                             </button>
-                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Kc6-t0-Izt">
-                                                <rect key="frame" x="14" y="-12" width="100" height="100"/>
-                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                <fontDescription key="fontDescription" name=".AppleSystemUIFont" family=".AppleSystemUIFont" pointSize="12"/>
-                                                <state key="normal" image="About us icon"/>
-                                                <connections>
-                                                    <segue destination="ocL-6C-xSv" kind="show" id="tKh-Fo-f9G"/>
-                                                </connections>
-                                            </button>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="About Us" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1uL-K4-lEr">
-                                                <rect key="frame" x="32" y="80" width="53" height="15"/>
-                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                <fontDescription key="fontDescription" type="system" pointSize="12"/>
-                                                <nil key="textColor"/>
-                                                <nil key="highlightedColor"/>
-                                            </label>
                                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7OX-ia-lR0">
                                                 <rect key="frame" x="14" y="187" width="100" height="100"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -265,20 +236,6 @@
                                                 <fontDescription key="fontDescription" type="system" pointSize="10"/>
                                                 <state key="normal" image="Links icon"/>
                                             </button>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="ASEAN secretariat" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kG9-h7-xAf">
-                                                <rect key="frame" x="158" y="80" width="104" height="15"/>
-                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                <fontDescription key="fontDescription" type="system" pointSize="12"/>
-                                                <nil key="textColor"/>
-                                                <nil key="highlightedColor"/>
-                                            </label>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Media Gallery" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="uFe-jJ-ZfQ">
-                                                <rect key="frame" x="320" y="80" width="78" height="15"/>
-                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                <fontDescription key="fontDescription" type="system" pointSize="12"/>
-                                                <nil key="textColor"/>
-                                                <nil key="highlightedColor"/>
-                                            </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="News" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9vi-FI-07A">
                                                 <rect key="frame" x="43" y="276" width="32" height="15"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -316,6 +273,49 @@
                                             </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Calendar" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ut5-Li-oWd">
                                                 <rect key="frame" x="323" y="422" width="51" height="15"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="d4h-2v-5BQ">
+                                                <rect key="frame" x="149" y="29" width="100" height="100"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <state key="normal" image="ASEAN secretariat icon">
+                                                    <attributedString key="attributedTitle"/>
+                                                </state>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8os-gU-9E1">
+                                                <rect key="frame" x="288" y="29" width="100" height="100"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="10"/>
+                                                <state key="normal" image="Gallery icon"/>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Kc6-t0-Izt">
+                                                <rect key="frame" x="11" y="29" width="100" height="100"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <fontDescription key="fontDescription" name=".AppleSystemUIFont" family=".AppleSystemUIFont" pointSize="12"/>
+                                                <state key="normal" image="About us icon"/>
+                                                <connections>
+                                                    <segue destination="Sa2-v4-qsn" kind="show" id="uaI-C9-FCP"/>
+                                                </connections>
+                                            </button>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="About Us" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1uL-K4-lEr">
+                                                <rect key="frame" x="29" y="121" width="53" height="15"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="ASEAN secretariat" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kG9-h7-xAf">
+                                                <rect key="frame" x="155" y="121" width="104" height="15"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Media Gallery" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="uFe-jJ-ZfQ">
+                                                <rect key="frame" x="317" y="121" width="78" height="15"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="12"/>
                                                 <nil key="textColor"/>
@@ -375,37 +375,32 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <wkWebView contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="5fc-Ul-YOI">
-                                <rect key="frame" x="24" y="100" width="378" height="500"/>
+                            <wkWebView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="5fc-Ul-YOI">
+                                <rect key="frame" x="24" y="100" width="370" height="500"/>
                                 <color key="backgroundColor" red="0.36078431370000003" green="0.38823529410000002" blue="0.4039215686" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <wkWebViewConfiguration key="configuration">
                                     <audiovisualMediaTypes key="mediaTypesRequiringUserActionForPlayback" none="YES"/>
                                     <wkPreferences key="preferences"/>
                                 </wkWebViewConfiguration>
                             </wkWebView>
-                            <activityIndicatorView opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" fixedFrame="YES" style="white" translatesAutoresizingMaskIntoConstraints="NO" id="FCE-P5-1nB">
-                                <rect key="frame" x="197" y="116" width="20" height="20"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </activityIndicatorView>
                         </subviews>
                         <color key="backgroundColor" red="0.31764705879999999" green="0.43137254899999999" blue="0.7725490196" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
-                            <constraint firstItem="5fc-Ul-YOI" firstAttribute="top" secondItem="0ra-dW-Dct" secondAttribute="top" id="evY-XZ-4Vf"/>
-                            <constraint firstItem="0ra-dW-Dct" firstAttribute="bottom" secondItem="5fc-Ul-YOI" secondAttribute="bottom" id="oX6-3G-4K4"/>
-                            <constraint firstItem="5fc-Ul-YOI" firstAttribute="leading" secondItem="0ra-dW-Dct" secondAttribute="leading" id="qdf-AN-pCN"/>
-                            <constraint firstItem="0ra-dW-Dct" firstAttribute="trailing" secondItem="5fc-Ul-YOI" secondAttribute="trailing" id="sis-rn-fGx"/>
+                            <constraint firstItem="5fc-Ul-YOI" firstAttribute="top" secondItem="0ra-dW-Dct" secondAttribute="top" constant="36" id="evY-XZ-4Vf"/>
+                            <constraint firstItem="0ra-dW-Dct" firstAttribute="bottom" secondItem="5fc-Ul-YOI" secondAttribute="bottom" constant="87" id="oX6-3G-4K4"/>
+                            <constraint firstItem="5fc-Ul-YOI" firstAttribute="leading" secondItem="0ra-dW-Dct" secondAttribute="leading" constant="24" id="qdf-AN-pCN"/>
+                            <constraint firstItem="0ra-dW-Dct" firstAttribute="trailing" secondItem="5fc-Ul-YOI" secondAttribute="trailing" constant="20" id="sis-rn-fGx"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="0ra-dW-Dct"/>
                     </view>
                     <tabBarItem key="tabBarItem" title="Overview" id="56d-w5-bjA"/>
                     <connections>
-                        <outlet property="activityIndicator" destination="FCE-P5-1nB" id="sW4-zu-ZCU"/>
-                        <outlet property="overviewWeb" destination="5fc-Ul-YOI" id="mrB-CN-Chd"/>
+                        <outlet property="overviewWeb" destination="5fc-Ul-YOI" id="yjB-MZ-vUe"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="uBp-5I-Fyn" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="4852.1739130434789" y="-2106.521739130435"/>
+            <point key="canvasLocation" x="4513" y="-1503"/>
         </scene>
         <!--About Asean-->
         <scene sceneID="kqE-aP-GTQ">
@@ -430,7 +425,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="aXg-eE-HRL" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="4857" y="-1209"/>
+            <point key="canvasLocation" x="4512" y="-611"/>
         </scene>
         <!--History-->
         <scene sceneID="dDV-w9-3GG">
@@ -446,7 +441,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="FTx-ka-R5v" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="4857" y="-385"/>
+            <point key="canvasLocation" x="4512" y="189"/>
         </scene>
         <!--Connectivity-->
         <scene sceneID="Ax6-tS-3nE">
@@ -462,7 +457,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="PTo-62-bqw" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="4857" y="374"/>
+            <point key="canvasLocation" x="4512" y="927"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="49n-P3-aKH">
@@ -483,25 +478,24 @@
             <point key="canvasLocation" x="-88" y="33"/>
         </scene>
         <!--Tab Bar Controller-->
-        <scene sceneID="UaR-QW-j0C">
+        <scene sceneID="92b-ui-yZ1">
             <objects>
-                <tabBarController automaticallyAdjustsScrollViewInsets="NO" id="ocL-6C-xSv" sceneMemberID="viewController">
+                <tabBarController automaticallyAdjustsScrollViewInsets="NO" id="Sa2-v4-qsn" sceneMemberID="viewController">
                     <toolbarItems/>
-                    <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="TMg-Ln-ZoD">
-                        <rect key="frame" x="0.0" y="0.0" width="1000" height="1000"/>
+                    <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="Q2z-mQ-3jb">
                         <autoresizingMask key="autoresizingMask"/>
                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     </tabBar>
                     <connections>
-                        <segue destination="RO2-93-yzd" kind="relationship" relationship="viewControllers" id="v03-rj-wUS"/>
-                        <segue destination="tbO-e1-Gdv" kind="relationship" relationship="viewControllers" id="xvB-lS-X4L"/>
-                        <segue destination="ZRi-uN-uvl" kind="relationship" relationship="viewControllers" id="Uou-lM-Zzd"/>
-                        <segue destination="l1s-Ma-S4y" kind="relationship" relationship="viewControllers" id="cXz-wB-sBQ"/>
+                        <segue destination="RO2-93-yzd" kind="relationship" relationship="viewControllers" id="AMs-jL-9Mk"/>
+                        <segue destination="tbO-e1-Gdv" kind="relationship" relationship="viewControllers" id="zcI-5a-muX"/>
+                        <segue destination="ZRi-uN-uvl" kind="relationship" relationship="viewControllers" id="PTR-oE-U5R"/>
+                        <segue destination="l1s-Ma-S4y" kind="relationship" relationship="viewControllers" id="5n9-D3-aj0"/>
                     </connections>
                 </tabBarController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="E64-p1-kiD" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Dkn-rZ-V5s" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3731.884057971015" y="32.608695652173914"/>
+            <point key="canvasLocation" x="3489.8550724637685" y="32.608695652173914"/>
         </scene>
     </scenes>
     <resources>
