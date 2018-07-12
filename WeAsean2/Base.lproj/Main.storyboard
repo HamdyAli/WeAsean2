@@ -480,13 +480,14 @@
         <!--Tab Bar Controller-->
         <scene sceneID="92b-ui-yZ1">
             <objects>
-                <tabBarController automaticallyAdjustsScrollViewInsets="NO" id="Sa2-v4-qsn" sceneMemberID="viewController">
+                <tabBarController automaticallyAdjustsScrollViewInsets="NO" id="Sa2-v4-qsn" customClass="TabBarController" customModule="WeAsean2" customModuleProvider="target" sceneMemberID="viewController">
                     <toolbarItems/>
-                    <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="Q2z-mQ-3jb">
+                    <tabBar key="tabBar" hidden="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="Q2z-mQ-3jb">
                         <autoresizingMask key="autoresizingMask"/>
                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     </tabBar>
                     <connections>
+                        <outlet property="customTabBarView" destination="HyE-Vp-qbx" id="3cP-3o-0bJ"/>
                         <segue destination="RO2-93-yzd" kind="relationship" relationship="viewControllers" id="AMs-jL-9Mk"/>
                         <segue destination="tbO-e1-Gdv" kind="relationship" relationship="viewControllers" id="zcI-5a-muX"/>
                         <segue destination="ZRi-uN-uvl" kind="relationship" relationship="viewControllers" id="PTR-oE-U5R"/>
@@ -494,6 +495,46 @@
                     </connections>
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Dkn-rZ-V5s" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <view contentMode="scaleToFill" id="HyE-Vp-qbx">
+                    <rect key="frame" x="0.0" y="0.0" width="416" height="128"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <subviews>
+                        <button opaque="NO" tag="1" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ftw-dF-cHi">
+                            <rect key="frame" x="94" y="37" width="94" height="30"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <state key="normal" title="About ASEAN"/>
+                            <connections>
+                                <action selector="changeTab:" destination="Sa2-v4-qsn" eventType="touchUpInside" id="fp0-Ca-dgZ"/>
+                            </connections>
+                        </button>
+                        <button opaque="NO" tag="2" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="EsG-BS-iZj">
+                            <rect key="frame" x="227" y="37" width="50" height="30"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <state key="normal" title="History"/>
+                            <connections>
+                                <action selector="changeTab:" destination="Sa2-v4-qsn" eventType="touchUpInside" id="eDp-J0-OLb"/>
+                            </connections>
+                        </button>
+                        <button opaque="NO" tag="3" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Imh-kA-4Y7">
+                            <rect key="frame" x="317" y="37" width="86" height="30"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <state key="normal" title="Connectivity"/>
+                            <connections>
+                                <action selector="changeTab:" destination="Sa2-v4-qsn" eventType="touchUpInside" id="UTB-4Q-0vu"/>
+                            </connections>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5hc-XD-5u1">
+                            <rect key="frame" x="6" y="37" width="64" height="30"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <state key="normal" title="Overview"/>
+                            <connections>
+                                <action selector="changeTab:" destination="Sa2-v4-qsn" eventType="touchUpInside" id="273-t2-3d9"/>
+                            </connections>
+                        </button>
+                    </subviews>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <viewLayoutGuide key="safeArea" id="0AI-A7-ySE"/>
+                </view>
             </objects>
             <point key="canvasLocation" x="3489.8550724637685" y="32.608695652173914"/>
         </scene>

@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8805EF5220F748E800C12C2F /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8805EF5120F748E700C12C2F /* TabBarController.swift */; };
 		883A8AAB20F6F4B50081FB9F /* OverviewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 883A8AAA20F6F4B50081FB9F /* OverviewViewController.swift */; };
 		883A8AAD20F6FF170081FB9F /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 883A8AAC20F6FF170081FB9F /* Default-568h@2x.png */; };
 		88708C8620F5A0FB0033D693 /* ThirdPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88708C8520F5A0FB0033D693 /* ThirdPageViewController.swift */; };
@@ -38,6 +39,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		8805EF5120F748E700C12C2F /* TabBarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TabBarController.swift; sourceTree = "<group>"; };
 		883A8AAA20F6F4B50081FB9F /* OverviewViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OverviewViewController.swift; sourceTree = "<group>"; };
 		883A8AAC20F6FF170081FB9F /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		88708C8520F5A0FB0033D693 /* ThirdPageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThirdPageViewController.swift; sourceTree = "<group>"; };
@@ -106,6 +108,7 @@
 		88CC392920F48AAD00A67C55 /* WeAsean2 */ = {
 			isa = PBXGroup;
 			children = (
+				8805EF5120F748E700C12C2F /* TabBarController.swift */,
 				883A8AAA20F6F4B50081FB9F /* OverviewViewController.swift */,
 				88CC392A20F48AAD00A67C55 /* AppDelegate.swift */,
 				88CC395A20F4929900A67C55 /* SecondPageControllerViewController.swift */,
@@ -272,6 +275,7 @@
 				88CC395B20F4929900A67C55 /* SecondPageControllerViewController.swift in Sources */,
 				88CC392D20F48AAD00A67C55 /* ViewController.swift in Sources */,
 				883A8AAB20F6F4B50081FB9F /* OverviewViewController.swift in Sources */,
+				8805EF5220F748E800C12C2F /* TabBarController.swift in Sources */,
 				88CC392B20F48AAD00A67C55 /* AppDelegate.swift in Sources */,
 				88708C8620F5A0FB0033D693 /* ThirdPageViewController.swift in Sources */,
 			);
