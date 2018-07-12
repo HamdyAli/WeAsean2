@@ -10,6 +10,7 @@ import UIKit
 
 class ViewController: UIViewController{
     
+    @IBOutlet var languageBtns: [UIButton]!
     override func viewDidLoad() {
         super.viewDidLoad()
        
@@ -20,6 +21,15 @@ class ViewController: UIViewController{
         // Dispose of any resources that can be recreated.
     }
     
+    @IBAction func languageSelect(_ sender: Any) {
+        languageBtns.forEach{(button) in
+            UIView.animate(withDuration: 0.3, animations: {
+                button.isHidden = !button.isHidden
+                self.view.layoutIfNeeded()
+            })
+            
+        }
+    }
     
 
 

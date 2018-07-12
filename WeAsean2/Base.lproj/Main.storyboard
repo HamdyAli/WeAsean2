@@ -18,46 +18,133 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Association of South East Asian Nations" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ZgV-o7-yIo">
-                                <rect key="frame" x="48" y="471" width="304" height="21"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Association of South East Asian Nations" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ZgV-o7-yIo">
+                                <rect key="frame" x="50" y="365" width="304" height="20.333333333333314"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Language" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="TSW-2p-iIZ">
-                                <rect key="frame" x="149" y="122" width="76" height="21"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Language" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="TSW-2p-iIZ">
+                                <rect key="frame" x="149" y="122.66666666666667" width="75.666666666666686" height="20.333333333333329"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="menu logo" translatesAutoresizingMaskIntoConstraints="NO" id="HU0-Ci-p12">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="menu logo" translatesAutoresizingMaskIntoConstraints="NO" id="HU0-Ci-p12">
                                 <rect key="frame" x="106" y="198" width="168" height="150"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="150" id="7qB-JA-4oe"/>
+                                </constraints>
                             </imageView>
-                            <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="M1r-O9-0M2">
-                                <rect key="frame" x="152" y="557" width="97" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <nil key="textColor"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits"/>
-                            </textField>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qxt-qi-GbC">
-                                <rect key="frame" x="96" y="500" width="209" height="87"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Language">
-                                    <color key="titleColor" red="0.77293150906735753" green="0.46522918407838748" blue="0.53385225917127765" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                </state>
-                                <connections>
-                                    <segue destination="0to-da-egL" kind="show" id="YDI-vR-hDT"/>
-                                </connections>
-                            </button>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="P4I-HN-eBh">
+                                <rect key="frame" x="-1" y="457" width="414" height="30"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="o8E-P1-XwF">
+                                        <rect key="frame" x="0.0" y="0.0" width="414" height="30"/>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <state key="normal" title="Language"/>
+                                        <connections>
+                                            <action selector="languageSelect:" destination="BYZ-38-t0r" eventType="touchUpInside" id="gg5-Mk-3x3"/>
+                                        </connections>
+                                    </button>
+                                    <button hidden="YES" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GnZ-Nh-BDn">
+                                        <rect key="frame" x="0.0" y="-457" width="414" height="0.0"/>
+                                        <color key="backgroundColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <state key="normal" title="Brunei">
+                                            <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        </state>
+                                        <connections>
+                                            <segue destination="0to-da-egL" kind="show" id="mOG-Qa-YGj"/>
+                                        </connections>
+                                    </button>
+                                    <button hidden="YES" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kkR-ST-td4">
+                                        <rect key="frame" x="0.0" y="-457" width="414" height="0.0"/>
+                                        <color key="backgroundColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <state key="normal" title="Singapore">
+                                            <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        </state>
+                                    </button>
+                                    <button hidden="YES" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tLE-Bh-wEW">
+                                        <rect key="frame" x="0.0" y="-457" width="414" height="0.0"/>
+                                        <color key="backgroundColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <state key="normal" title="Malaysia">
+                                            <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        </state>
+                                    </button>
+                                    <button hidden="YES" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LOV-kb-s08">
+                                        <rect key="frame" x="0.0" y="-457" width="414" height="0.0"/>
+                                        <color key="backgroundColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <state key="normal" title="Vietnam">
+                                            <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        </state>
+                                    </button>
+                                    <button hidden="YES" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="d5M-0d-Go1">
+                                        <rect key="frame" x="0.0" y="-457" width="414" height="0.0"/>
+                                        <color key="backgroundColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <state key="normal" title="Cambodia">
+                                            <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        </state>
+                                    </button>
+                                    <button hidden="YES" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="glT-uL-VnS">
+                                        <rect key="frame" x="0.0" y="-457" width="414" height="0.0"/>
+                                        <color key="backgroundColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <state key="normal" title="Thailand">
+                                            <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        </state>
+                                    </button>
+                                    <button hidden="YES" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Yqa-ly-BGF">
+                                        <rect key="frame" x="0.0" y="-457" width="414" height="0.0"/>
+                                        <color key="backgroundColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <state key="normal" title="Philippines">
+                                            <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        </state>
+                                    </button>
+                                    <button hidden="YES" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Wvu-0G-2JY">
+                                        <rect key="frame" x="0.0" y="-457" width="414" height="0.0"/>
+                                        <color key="backgroundColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <state key="normal" title="Laos">
+                                            <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        </state>
+                                    </button>
+                                    <button hidden="YES" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HBt-kn-JLr">
+                                        <rect key="frame" x="0.0" y="-457" width="414" height="0.0"/>
+                                        <color key="backgroundColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <state key="normal" title="Indonesia">
+                                            <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        </state>
+                                    </button>
+                                </subviews>
+                            </stackView>
                         </subviews>
                         <color key="backgroundColor" red="0.31764705882352939" green="0.43137254901960786" blue="0.77254901960784317" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="HU0-Ci-p12" firstAttribute="top" secondItem="TSW-2p-iIZ" secondAttribute="bottom" constant="55" id="2AJ-cO-lzz"/>
+                            <constraint firstItem="ZgV-o7-yIo" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" constant="365" id="4WW-fa-sTW"/>
+                            <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="ZgV-o7-yIo" secondAttribute="trailing" constant="20" symbolic="YES" id="6r5-6F-5d4"/>
+                            <constraint firstItem="ZgV-o7-yIo" firstAttribute="top" secondItem="HU0-Ci-p12" secondAttribute="bottom" constant="17" id="G56-ZR-2s3"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="P4I-HN-eBh" secondAttribute="trailing" constant="1" id="HBe-f8-SfL"/>
+                            <constraint firstItem="P4I-HN-eBh" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="-1" id="Nz2-tt-kCB"/>
+                            <constraint firstItem="P4I-HN-eBh" firstAttribute="top" secondItem="ZgV-o7-yIo" secondAttribute="bottom" constant="71.666666666666686" id="UOi-Fk-Z6O"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="HU0-Ci-p12" secondAttribute="trailing" constant="140" id="UdZ-G1-Vyf"/>
+                            <constraint firstItem="ZgV-o7-yIo" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="50" id="bKu-TW-OCJ"/>
+                            <constraint firstItem="TSW-2p-iIZ" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="149" id="h5I-oz-BVY"/>
+                            <constraint firstItem="HU0-Ci-p12" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="106" id="ipr-bS-XGD"/>
+                            <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="TSW-2p-iIZ" secondAttribute="trailing" constant="20" symbolic="YES" id="t8V-xv-qJH"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                     <navigationItem key="navigationItem" id="Ehy-Ev-wpP"/>
+                    <connections>
+                        <outletCollection property="languageBtns" destination="GnZ-Nh-BDn" collectionClass="NSMutableArray" id="9kM-NJ-VQI"/>
+                        <outletCollection property="languageBtns" destination="kkR-ST-td4" collectionClass="NSMutableArray" id="Ver-ZO-6NI"/>
+                        <outletCollection property="languageBtns" destination="tLE-Bh-wEW" collectionClass="NSMutableArray" id="vyD-ZE-sbs"/>
+                        <outletCollection property="languageBtns" destination="LOV-kb-s08" collectionClass="NSMutableArray" id="hd4-Ir-4eo"/>
+                        <outletCollection property="languageBtns" destination="d5M-0d-Go1" collectionClass="NSMutableArray" id="r2h-u6-FmX"/>
+                        <outletCollection property="languageBtns" destination="glT-uL-VnS" collectionClass="NSMutableArray" id="7qo-f8-L1v"/>
+                        <outletCollection property="languageBtns" destination="Yqa-ly-BGF" collectionClass="NSMutableArray" id="h1E-Rc-bp6"/>
+                        <outletCollection property="languageBtns" destination="Wvu-0G-2JY" collectionClass="NSMutableArray" id="uMB-Jg-D23"/>
+                        <outletCollection property="languageBtns" destination="HBt-kn-JLr" collectionClass="NSMutableArray" id="YiU-ii-1Xk"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
@@ -283,7 +370,6 @@
         <!--About Asean-->
         <scene sceneID="kqE-aP-GTQ">
             <objects>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="aXg-eE-HRL" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <viewController id="tbO-e1-Gdv" userLabel="About Asean" customClass="ThirdPageViewController" customModule="WeAsean2" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="a2R-qJ-8FK" customClass="third">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
@@ -302,6 +388,7 @@
                     </view>
                     <tabBarItem key="tabBarItem" title="About Asean" id="mwV-xG-MRs" userLabel="About Asean"/>
                 </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="aXg-eE-HRL" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="4857" y="-1209"/>
         </scene>
@@ -361,6 +448,7 @@
                 <tabBarController automaticallyAdjustsScrollViewInsets="NO" id="ocL-6C-xSv" sceneMemberID="viewController">
                     <toolbarItems/>
                     <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="TMg-Ln-ZoD">
+                        <rect key="frame" x="0.0" y="0.0" width="1000" height="1000"/>
                         <autoresizingMask key="autoresizingMask"/>
                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     </tabBar>
