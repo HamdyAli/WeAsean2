@@ -12,9 +12,7 @@ import WebKit
 class OverviewViewController: UIViewController {
 
     @IBOutlet weak var overviewWeb: WKWebView!
-    
-    @IBOutlet weak var activityIndicator: UIActivityIndicatorView!
-    
+
     override func viewDidLoad() {
         super.viewDidLoad()
         
