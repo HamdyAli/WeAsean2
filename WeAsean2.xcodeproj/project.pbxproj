@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		883A8AAB20F6F4B50081FB9F /* OverviewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 883A8AAA20F6F4B50081FB9F /* OverviewViewController.swift */; };
 		88708C8620F5A0FB0033D693 /* ThirdPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88708C8520F5A0FB0033D693 /* ThirdPageViewController.swift */; };
 		88CC392B20F48AAD00A67C55 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88CC392A20F48AAD00A67C55 /* AppDelegate.swift */; };
 		88CC392D20F48AAD00A67C55 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88CC392C20F48AAD00A67C55 /* ViewController.swift */; };
@@ -36,6 +37,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		883A8AAA20F6F4B50081FB9F /* OverviewViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OverviewViewController.swift; sourceTree = "<group>"; };
 		88708C8520F5A0FB0033D693 /* ThirdPageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThirdPageViewController.swift; sourceTree = "<group>"; };
 		88CC392720F48AAD00A67C55 /* WeAsean2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WeAsean2.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		88CC392A20F48AAD00A67C55 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -101,6 +103,7 @@
 		88CC392920F48AAD00A67C55 /* WeAsean2 */ = {
 			isa = PBXGroup;
 			children = (
+				883A8AAA20F6F4B50081FB9F /* OverviewViewController.swift */,
 				88CC392A20F48AAD00A67C55 /* AppDelegate.swift */,
 				88CC395A20F4929900A67C55 /* SecondPageControllerViewController.swift */,
 				88CC392C20F48AAD00A67C55 /* ViewController.swift */,
@@ -264,6 +267,7 @@
 			files = (
 				88CC395B20F4929900A67C55 /* SecondPageControllerViewController.swift in Sources */,
 				88CC392D20F48AAD00A67C55 /* ViewController.swift in Sources */,
+				883A8AAB20F6F4B50081FB9F /* OverviewViewController.swift in Sources */,
 				88CC392B20F48AAD00A67C55 /* AppDelegate.swift in Sources */,
 				88708C8620F5A0FB0033D693 /* ThirdPageViewController.swift in Sources */,
 			);

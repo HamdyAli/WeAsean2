@@ -367,6 +367,22 @@
             </objects>
             <point key="canvasLocation" x="2131.8840579710145" y="32.608695652173914"/>
         </scene>
+        <!--Overview-->
+        <scene sceneID="vOQ-bQ-KvC">
+            <objects>
+                <viewController id="RO2-93-yzd" customClass="OverviewViewController" customModule="WeAsean2" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="vgS-bc-1G8">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" red="0.31764705879999999" green="0.43137254899999999" blue="0.7725490196" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <viewLayoutGuide key="safeArea" id="0ra-dW-Dct"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Overview" id="56d-w5-bjA"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="uBp-5I-Fyn" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="4852.1739130434789" y="-2106.521739130435"/>
+        </scene>
         <!--About Asean-->
         <scene sceneID="kqE-aP-GTQ">
             <objects>
@@ -456,6 +472,7 @@
                         <segue destination="tbO-e1-Gdv" kind="relationship" relationship="viewControllers" id="xvB-lS-X4L"/>
                         <segue destination="ZRi-uN-uvl" kind="relationship" relationship="viewControllers" id="Uou-lM-Zzd"/>
                         <segue destination="l1s-Ma-S4y" kind="relationship" relationship="viewControllers" id="cXz-wB-sBQ"/>
+                        <segue destination="RO2-93-yzd" kind="relationship" relationship="viewControllers" id="v03-rj-wUS"/>
                     </connections>
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="E64-p1-kiD" userLabel="First Responder" sceneMemberID="firstResponder"/>
