@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		71E318A0F9F51C22964D44CF /* Pods_WeAsean2.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 41555CE32A3EF3BA61267C7A /* Pods_WeAsean2.framework */; };
 		8805EF5220F748E800C12C2F /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8805EF5120F748E700C12C2F /* TabBarController.swift */; };
 		883A8AAB20F6F4B50081FB9F /* OverviewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 883A8AAA20F6F4B50081FB9F /* OverviewViewController.swift */; };
 		883A8AAD20F6FF170081FB9F /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 883A8AAC20F6FF170081FB9F /* Default-568h@2x.png */; };
@@ -19,6 +20,8 @@
 		88CC394020F48AAF00A67C55 /* WeAsean2Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88CC393F20F48AAF00A67C55 /* WeAsean2Tests.swift */; };
 		88CC394B20F48AAF00A67C55 /* WeAsean2UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88CC394A20F48AAF00A67C55 /* WeAsean2UITests.swift */; };
 		88CC395B20F4929900A67C55 /* SecondPageControllerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88CC395A20F4929900A67C55 /* SecondPageControllerViewController.swift */; };
+		9B1623E61AFFEE4D1ECDA1E4 /* Pods_WeAsean2UITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 65CED234AFCDD9E6F9D1D870 /* Pods_WeAsean2UITests.framework */; };
+		B47639DB495F80CBDA89746B /* Pods_WeAsean2Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5F99FD3107726E0519457898 /* Pods_WeAsean2Tests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,6 +42,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		112809F27507A14376748614 /* Pods-WeAsean2Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WeAsean2Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WeAsean2Tests/Pods-WeAsean2Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		2DB57DD62100AEDADBE4DA2E /* Pods-WeAsean2UITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WeAsean2UITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WeAsean2UITests/Pods-WeAsean2UITests.debug.xcconfig"; sourceTree = "<group>"; };
+		41555CE32A3EF3BA61267C7A /* Pods_WeAsean2.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WeAsean2.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4DD0930C083798BF701471D1 /* Pods-WeAsean2.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WeAsean2.release.xcconfig"; path = "Pods/Target Support Files/Pods-WeAsean2/Pods-WeAsean2.release.xcconfig"; sourceTree = "<group>"; };
+		51DF769043DE2A323F527239 /* Pods-WeAsean2Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WeAsean2Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-WeAsean2Tests/Pods-WeAsean2Tests.release.xcconfig"; sourceTree = "<group>"; };
+		5F99FD3107726E0519457898 /* Pods_WeAsean2Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WeAsean2Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		65CED234AFCDD9E6F9D1D870 /* Pods_WeAsean2UITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WeAsean2UITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8805EF5120F748E700C12C2F /* TabBarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TabBarController.swift; sourceTree = "<group>"; };
 		883A8AAA20F6F4B50081FB9F /* OverviewViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OverviewViewController.swift; sourceTree = "<group>"; };
 		883A8AAC20F6FF170081FB9F /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
@@ -57,6 +67,8 @@
 		88CC394A20F48AAF00A67C55 /* WeAsean2UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeAsean2UITests.swift; sourceTree = "<group>"; };
 		88CC394C20F48AAF00A67C55 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		88CC395A20F4929900A67C55 /* SecondPageControllerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondPageControllerViewController.swift; sourceTree = "<group>"; };
+		9EE875652ED58A3E4513DB64 /* Pods-WeAsean2.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WeAsean2.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WeAsean2/Pods-WeAsean2.debug.xcconfig"; sourceTree = "<group>"; };
+		BA3E08E5DE38080639141BE5 /* Pods-WeAsean2UITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WeAsean2UITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-WeAsean2UITests/Pods-WeAsean2UITests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,6 +76,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				71E318A0F9F51C22964D44CF /* Pods_WeAsean2.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -71,6 +84,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B47639DB495F80CBDA89746B /* Pods_WeAsean2Tests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,12 +92,36 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9B1623E61AFFEE4D1ECDA1E4 /* Pods_WeAsean2UITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1CBF1676477E9C64D4CC4F3A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9EE875652ED58A3E4513DB64 /* Pods-WeAsean2.debug.xcconfig */,
+				4DD0930C083798BF701471D1 /* Pods-WeAsean2.release.xcconfig */,
+				112809F27507A14376748614 /* Pods-WeAsean2Tests.debug.xcconfig */,
+				51DF769043DE2A323F527239 /* Pods-WeAsean2Tests.release.xcconfig */,
+				2DB57DD62100AEDADBE4DA2E /* Pods-WeAsean2UITests.debug.xcconfig */,
+				BA3E08E5DE38080639141BE5 /* Pods-WeAsean2UITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		7637E902668F55EDE2237FF2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				41555CE32A3EF3BA61267C7A /* Pods_WeAsean2.framework */,
+				5F99FD3107726E0519457898 /* Pods_WeAsean2Tests.framework */,
+				65CED234AFCDD9E6F9D1D870 /* Pods_WeAsean2UITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		88CC391E20F48AAD00A67C55 = {
 			isa = PBXGroup;
 			children = (
@@ -92,6 +130,8 @@
 				88CC393E20F48AAF00A67C55 /* WeAsean2Tests */,
 				88CC394920F48AAF00A67C55 /* WeAsean2UITests */,
 				88CC392820F48AAD00A67C55 /* Products */,
+				1CBF1676477E9C64D4CC4F3A /* Pods */,
+				7637E902668F55EDE2237FF2 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -147,9 +187,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 88CC394F20F48AAF00A67C55 /* Build configuration list for PBXNativeTarget "WeAsean2" */;
 			buildPhases = (
+				22223EFD7A544C4BDC6B963A /* [CP] Check Pods Manifest.lock */,
 				88CC392320F48AAD00A67C55 /* Sources */,
 				88CC392420F48AAD00A67C55 /* Frameworks */,
 				88CC392520F48AAD00A67C55 /* Resources */,
+				BC40B6D2E25FB3DAA42F1975 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -164,9 +206,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 88CC395220F48AAF00A67C55 /* Build configuration list for PBXNativeTarget "WeAsean2Tests" */;
 			buildPhases = (
+				9F7A014FCD48ED1E4DE2F823 /* [CP] Check Pods Manifest.lock */,
 				88CC393720F48AAF00A67C55 /* Sources */,
 				88CC393820F48AAF00A67C55 /* Frameworks */,
 				88CC393920F48AAF00A67C55 /* Resources */,
+				8D1CB6A3CBE2642A3781D738 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -182,9 +226,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 88CC395520F48AAF00A67C55 /* Build configuration list for PBXNativeTarget "WeAsean2UITests" */;
 			buildPhases = (
+				20D1122045A48BF7B1463D5A /* [CP] Check Pods Manifest.lock */,
 				88CC394220F48AAF00A67C55 /* Sources */,
 				88CC394320F48AAF00A67C55 /* Frameworks */,
 				88CC394420F48AAF00A67C55 /* Resources */,
+				B0052CE9D07C90C52DDEB0A6 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -266,6 +312,117 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		20D1122045A48BF7B1463D5A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-WeAsean2UITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		22223EFD7A544C4BDC6B963A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-WeAsean2-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8D1CB6A3CBE2642A3781D738 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-WeAsean2Tests/Pods-WeAsean2Tests-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/PageController/PageController.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/PageController.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WeAsean2Tests/Pods-WeAsean2Tests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9F7A014FCD48ED1E4DE2F823 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-WeAsean2Tests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B0052CE9D07C90C52DDEB0A6 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-WeAsean2UITests/Pods-WeAsean2UITests-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/PageController/PageController.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/PageController.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WeAsean2UITests/Pods-WeAsean2UITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BC40B6D2E25FB3DAA42F1975 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-WeAsean2/Pods-WeAsean2-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/PageController/PageController.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/PageController.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WeAsean2/Pods-WeAsean2-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		88CC392320F48AAD00A67C55 /* Sources */ = {
@@ -448,14 +605,12 @@
 		};
 		88CC395020F48AAF00A67C55 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9EE875652ED58A3E4513DB64 /* Pods-WeAsean2.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = WeAsean2/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = SPHIERE.WeAsean2;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
@@ -465,14 +620,12 @@
 		};
 		88CC395120F48AAF00A67C55 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4DD0930C083798BF701471D1 /* Pods-WeAsean2.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = WeAsean2/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = SPHIERE.WeAsean2;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
@@ -482,16 +635,13 @@
 		};
 		88CC395320F48AAF00A67C55 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 112809F27507A14376748614 /* Pods-WeAsean2Tests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = WeAsean2Tests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = SPHIERE.WeAsean2Tests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
@@ -502,16 +652,13 @@
 		};
 		88CC395420F48AAF00A67C55 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 51DF769043DE2A323F527239 /* Pods-WeAsean2Tests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = WeAsean2Tests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = SPHIERE.WeAsean2Tests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
@@ -522,15 +669,12 @@
 		};
 		88CC395620F48AAF00A67C55 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2DB57DD62100AEDADBE4DA2E /* Pods-WeAsean2UITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = WeAsean2UITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = SPHIERE.WeAsean2UITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
@@ -541,15 +685,12 @@
 		};
 		88CC395720F48AAF00A67C55 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BA3E08E5DE38080639141BE5 /* Pods-WeAsean2UITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = WeAsean2UITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = SPHIERE.WeAsean2UITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;

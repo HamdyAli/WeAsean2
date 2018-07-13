@@ -1,0 +1,16 @@
+PODS:
+  - PageController (0.7.0)
+
+DEPENDENCIES:
+  - PageController
+
+SPEC REPOS:
+  https://github.com/CocoaPods/Specs.git:
+    - PageController
+
+SPEC CHECKSUMS:
+  PageController: a1a19fa80e342f65df76b35897e8400938ca7915
+
+PODFILE CHECKSUM: ed019136e8a089c7e23b231898efebfea95c53b7
+
+COCOAPODS: 1.5.0
