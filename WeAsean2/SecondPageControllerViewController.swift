@@ -10,7 +10,13 @@ import UIKit
 
 class SecondPageControllerViewController: UIViewController,UICollectionViewDelegate, UICollectionViewDataSource {
     
-    var imageArray = [UIImage(named: "About us icon"),UIImage(named: "About us icon"),UIImage(named: "450X250"),UIImage(named: "450X250"),UIImage(named: "450X250")]
+    var imageArray = [
+        UIImage(named: "About us icon"),
+        UIImage(named: "About us icon"),
+        UIImage(named: "450X250"),
+        UIImage(named: "450X250"),
+        UIImage(named: "450X250")
+    ]
     
         
   
@@ -22,6 +28,7 @@ class SecondPageControllerViewController: UIViewController,UICollectionViewDeleg
     }
     
     func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
+        
         return imageArray.count
     }
     
