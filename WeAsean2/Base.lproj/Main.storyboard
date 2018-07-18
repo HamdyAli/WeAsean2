@@ -501,7 +501,6 @@
                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     </tabBar>
                     <connections>
-                        <outlet property="navigationBar" destination="Q2z-mQ-3jb" id="b1t-xg-kP7"/>
                         <segue destination="RO2-93-yzd" kind="relationship" relationship="viewControllers" id="AMs-jL-9Mk"/>
                         <segue destination="tbO-e1-Gdv" kind="relationship" relationship="viewControllers" id="zcI-5a-muX"/>
                         <segue destination="ZRi-uN-uvl" kind="relationship" relationship="viewControllers" id="PTR-oE-U5R"/>
