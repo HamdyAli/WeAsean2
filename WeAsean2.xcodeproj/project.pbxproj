@@ -10,6 +10,7 @@
 		71E318A0F9F51C22964D44CF /* Pods_WeAsean2.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 41555CE32A3EF3BA61267C7A /* Pods_WeAsean2.framework */; };
 		8805EF5220F748E800C12C2F /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8805EF5120F748E700C12C2F /* TabBarController.swift */; };
 		881B042620F885F600D0B017 /* ImageCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 881B042520F885F600D0B017 /* ImageCollectionViewCell.swift */; };
+		883979F420FDD7DE0046EDA2 /* HomePageController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 883979F320FDD7DE0046EDA2 /* HomePageController.swift */; };
 		883A8AAB20F6F4B50081FB9F /* OverviewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 883A8AAA20F6F4B50081FB9F /* OverviewViewController.swift */; };
 		883A8AAD20F6FF170081FB9F /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 883A8AAC20F6FF170081FB9F /* Default-568h@2x.png */; };
 		88708C8620F5A0FB0033D693 /* ThirdPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88708C8520F5A0FB0033D693 /* ThirdPageViewController.swift */; };
@@ -22,7 +23,6 @@
 		88CC393520F48AAF00A67C55 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 88CC393320F48AAF00A67C55 /* LaunchScreen.storyboard */; };
 		88CC394020F48AAF00A67C55 /* WeAsean2Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88CC393F20F48AAF00A67C55 /* WeAsean2Tests.swift */; };
 		88CC394B20F48AAF00A67C55 /* WeAsean2UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88CC394A20F48AAF00A67C55 /* WeAsean2UITests.swift */; };
-		88CC395B20F4929900A67C55 /* SecondPageControllerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88CC395A20F4929900A67C55 /* SecondPageControllerViewController.swift */; };
 		9B1623E61AFFEE4D1ECDA1E4 /* Pods_WeAsean2UITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 65CED234AFCDD9E6F9D1D870 /* Pods_WeAsean2UITests.framework */; };
 		B47639DB495F80CBDA89746B /* Pods_WeAsean2Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5F99FD3107726E0519457898 /* Pods_WeAsean2Tests.framework */; };
 /* End PBXBuildFile section */
@@ -54,6 +54,7 @@
 		65CED234AFCDD9E6F9D1D870 /* Pods_WeAsean2UITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WeAsean2UITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8805EF5120F748E700C12C2F /* TabBarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TabBarController.swift; sourceTree = "<group>"; };
 		881B042520F885F600D0B017 /* ImageCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageCollectionViewCell.swift; sourceTree = "<group>"; };
+		883979F320FDD7DE0046EDA2 /* HomePageController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePageController.swift; sourceTree = "<group>"; };
 		883A8AAA20F6F4B50081FB9F /* OverviewViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OverviewViewController.swift; sourceTree = "<group>"; };
 		883A8AAC20F6FF170081FB9F /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		88708C8520F5A0FB0033D693 /* ThirdPageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThirdPageViewController.swift; sourceTree = "<group>"; };
@@ -72,7 +73,6 @@
 		88CC394620F48AAF00A67C55 /* WeAsean2UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WeAsean2UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		88CC394A20F48AAF00A67C55 /* WeAsean2UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeAsean2UITests.swift; sourceTree = "<group>"; };
 		88CC394C20F48AAF00A67C55 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		88CC395A20F4929900A67C55 /* SecondPageControllerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondPageControllerViewController.swift; sourceTree = "<group>"; };
 		9EE875652ED58A3E4513DB64 /* Pods-WeAsean2.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WeAsean2.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WeAsean2/Pods-WeAsean2.debug.xcconfig"; sourceTree = "<group>"; };
 		BA3E08E5DE38080639141BE5 /* Pods-WeAsean2UITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WeAsean2UITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-WeAsean2UITests/Pods-WeAsean2UITests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -157,7 +157,6 @@
 				8805EF5120F748E700C12C2F /* TabBarController.swift */,
 				883A8AAA20F6F4B50081FB9F /* OverviewViewController.swift */,
 				88CC392A20F48AAD00A67C55 /* AppDelegate.swift */,
-				88CC395A20F4929900A67C55 /* SecondPageControllerViewController.swift */,
 				88CC392C20F48AAD00A67C55 /* ViewController.swift */,
 				88CC392E20F48AAD00A67C55 /* Main.storyboard */,
 				88CC393120F48AAF00A67C55 /* Assets.xcassets */,
@@ -167,6 +166,7 @@
 				8890C65120F843C600FDE409 /* CustomPageController.swift */,
 				8890C65320F8464900FDE409 /* ContentViewController.swift */,
 				881B042520F885F600D0B017 /* ImageCollectionViewCell.swift */,
+				883979F320FDD7DE0046EDA2 /* HomePageController.swift */,
 			);
 			path = WeAsean2;
 			sourceTree = "<group>";
@@ -439,7 +439,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8890C65420F8464900FDE409 /* ContentViewController.swift in Sources */,
-				88CC395B20F4929900A67C55 /* SecondPageControllerViewController.swift in Sources */,
+				883979F420FDD7DE0046EDA2 /* HomePageController.swift in Sources */,
 				8890C65220F843C600FDE409 /* CustomPageController.swift in Sources */,
 				88CC392D20F48AAD00A67C55 /* ViewController.swift in Sources */,
 				883A8AAB20F6F4B50081FB9F /* OverviewViewController.swift in Sources */,
